@@ -1,8 +1,9 @@
+
 *{
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
 body{
-    background-color: antiquewhite;
+ 
     
     background-image: linear-gradient(to bottom,antiquewhite 0%,antiquewhite 50%,#5290f9 50%,#5290f9 100%);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
@@ -20,8 +21,13 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
     border-radius: 3px;
     box-shadow: 5px 5px rgb(255, 60, 0);
+=======
+    border-radius: 10px;
+    box-shadow: 5px 5px  rgb(255, 60, 0);
+>>>>>>> 96a5b2e (done)
     transition: width 0.6s linear;
 
 }
@@ -37,10 +43,10 @@ nav ul{
     transition: width 0.6s linear;
 
 }
-#nav.active ul{
+nav.active ul{
     width:100%;
 }
-#nav ul li{
+nav ul li{
     transform: rotateY(0deg);
     opacity: 0;
     transition: transform 0.6s linear,opacity 0.6s linear;
@@ -51,8 +57,7 @@ nav ul{
 }
 #nav ul a {
     position:relative;
-    color:black;
-    text-decoration:brown;
+    color:black;                                                   
     margin: 0 10px;
 }
 .icon{
